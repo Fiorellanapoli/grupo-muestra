@@ -57,21 +57,16 @@ nav a:hover {
     justify-content: center;
     padding: 40px 5%;
 }
-.grilla {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
+
 
 .card {
     border-radius: 10px;
+    padding: 25%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #fff;
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease;
-    padding: 20px;
 }
 
 .card:hover {
@@ -90,18 +85,6 @@ nav a:hover {
     font-weight: 600;
     color: #ffeaa7;
 }
-.materiales {
-    background-color:#139386;
-    border-radius: 10px;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 20px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: aliceblue;
-    justify-content: row;
-}
-
 .top-tarjeta {
     display: flex;
     justify-content: row;
@@ -111,14 +94,45 @@ nav a:hover {
     border-radius: 50%;
 }
 
+.grilla {
+    justify-content: center;
+    display: flex;
+    flex-direction: flex-start;
+    flex-wrap: wrap;
+}
+
 .grid {
-    background-color: #98DED9;
     padding: 15px;
+    background-color: #98DED9;
     text-align: center;
     color: #1f5541;
     border-radius: 5px;
     font-weight: 600;
+    margin: 15px;
+    height: auto;
+    width: 300px;
+}
+
+.grilla2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: flex-start;
+    flex-wrap: wrap;
+}
+
+.materiales {
+    background-color:#139386;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    margin: 25px;
 }
 .material-img img{
    width: 75%;
+}
+h2{
+padding:30px;
 }
