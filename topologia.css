@@ -136,3 +136,11 @@ nav a:hover {
 h2{
 padding:30px;
 }
+footer {
+    background-color: #96e6cc;
+    padding: 1.5%;
+}
+footer p {
+    color: #113b2e;
+    text-align: center;
+}
