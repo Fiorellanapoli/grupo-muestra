@@ -116,11 +116,7 @@ nav a:hover {
     color: aliceblue;
 }
 
-.empty {
-    display: none; 
-}
-
-.footer {
+.abajo{
     grid-area: footer;
     background-color:  #d6eaf8;
     padding: 20px;
