@@ -111,3 +111,11 @@ button[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+footer {
+    background-color: #96e6cc;
+    padding: 1.5%;
+}
+footer p {
+    color: #113b2e;
+    text-align: center;
+}
