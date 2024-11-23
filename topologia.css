@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #d6eaf8;
+    color: #333;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #C7FFD8;
+    padding: 20px 5%;
+    color: #3e7e6a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logotipo {
+    display: flex;
+    align-items: center;
+}
+
+header .logotipo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logotipo p {
+    font-weight: 700;
+    color: #205f44;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color:  #205f44;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #98DED9;
+}
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 5%;
+}
+
+
+.card {
+    border-radius: 10px;
+    padding: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.imagenDeTarjeta {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ffeaa7;
+}
+.top-tarjeta {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.grilla {
+    justify-content: center;
+    display: flex;
+    flex-direction: flex-start;
+    flex-wrap: wrap;
+}
+
+.grid {
+    padding: 15px;
+    background-color: #98DED9;
+    text-align: center;
+    color: #1f5541;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 15px;
+    height: auto;
+    width: 300px;
+}
+
+.grilla2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: flex-start;
+    flex-wrap: wrap;
+}
+
+.materiales {
+    background-color:#139386;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    margin: 25px;
+}
+.material-img img{
+   width: 75%;
+}
+h2{
+padding:30px;
+}
+footer {
+    background-color: #96e6cc;
+    padding: 1.5%;
+}
+footer p {
+    color: #113b2e;
+    text-align: center;
+}

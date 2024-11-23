@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #d6eaf8;
+    color: #333;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #C7FFD8;
+    padding: 20px 5%;
+    color: #3e7e6a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logotipo {
+    display: flex;
+    align-items: center;
+}
+
+header .logotipo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logotipo p {
+    font-weight: 700;
+    color: #205f44;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color:  #205f44;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #98DED9;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #0B2F9F;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    max-width: 20%;
+}
+
+
+.nosotros img{
+    width: 80%;
+    height: 45vh;
+}
+
+.tarjetas {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.grid {
+    background-color: #6c5ce7;
+    padding: 15px;
+    text-align: center;
+    color: #f4f4f9;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.card{
+    margin: 2%;
+}
+.textocontenedor{
+        width: 70%;          
+        margin: 0 auto;        
+    }
+    
+    p {
+        font-size: 16px;        
+        line-height: 1.5;       
+        color: #000000;             
+    }
+h3{
+padding: 20px;
+}
+.card p {
+    color: #f4f4f9;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #96e6cc;
+    padding: 1.5%;
+}
+footer p {
+    color: #113b2e;
+    text-align: center;
+}
